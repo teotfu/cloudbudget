@@ -1,0 +1,113 @@
+@media screen and (max-width:1230px){
+    .header__nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .software__wrap{
+        gap: 50px;
+        justify-content: center;
+    }
+    .software__image-play{
+        left: 570px;
+    }
+}
+@media screen and (max-width:1140px){
+    .software__wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .software__desc{
+        width: 100%;
+        text-align: center;
+    }
+    .software__image-img {
+        text-align: center;
+        width: 100%;
+    }
+    .software__image-play{
+        display: none;
+    }
+    .features__wrap{
+        flex-wrap: wrap;
+        gap: 150px;
+        width: 100%;
+    }
+    .features__card{
+        width: 100%;
+    }
+    .technology__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .install__wrap{
+        flex-direction: column;
+    }
+    .install__desc{
+        width: 100%;
+        text-align: center; 
+    }
+    .install__img1{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    .install__img2{
+        display: none;
+    }
+    .install__img3{
+        display: none;
+    }
+    .contact__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer__address{
+        width: 100px;
+    }
+    .footer__support{
+        width: 100px;
+    }
+    .footer__copyright{
+        top: 700px;
+    }
+}
+@media screen and (max-width:860px){
+    .header__info-h{
+        font-size: 50px;
+    }
+    .header__info-p{
+        font-size:18px;
+    }
+    .header__info-btn{
+        padding: 14px 40px;
+        font-size: 12px;
+    }
+    .software__desc-h{
+     font-size: 24px;   
+    }
+    .contact__desc-p{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contact__form-name{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:520px){
+    .header__info-h{
+        font-size: 38px;
+    }
+    .header__info-p{
+        width: 300px;
+    }
+    .header__nav-list {
+        flex-direction: column;
+    }
+}
